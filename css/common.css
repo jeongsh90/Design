@@ -9,6 +9,7 @@
     --neutral-600: #26304a;
     --neutral-700: #151b2d;
     --neutral-800: #0a0e1a;
+
     --neutral-100-rgb: 255, 255, 255;
     --neutral-200-rgb: 234, 240, 255;
     --neutral-300-rgb: 201, 207, 229;
@@ -92,9 +93,9 @@
 .arrow-type1{mask-image: var(--arrow-type1);}
 .rocket-outline{mask-image: var(--rocket-outline);}
 
-.main-wrap {display: flex; gap:36px; width:100%; height:100vh; overflow: hidden;  background: var(--main-bg) radial-gradient(rgba(var(--neutral-100-rgb), .15) 1.5px, transparent 0) 0 0 / 40px 40px;}
+.main-wrap {display: flex; gap:36px; width:100%; height:100vh; padding:36px; overflow: hidden;  background: var(--main-bg) radial-gradient(rgba(var(--neutral-100-rgb), .15) 1.5px, transparent 0) 0 0 / 40px 40px;}
 
-.snb{display: flex; flex-direction: column; gap:16px; width:300px; height:100%; padding:16px 32px 32px; border:1px solid var(--neutral-700); background: var(--neutral-800);}
+.snb{display: flex; flex-direction: column; gap:16px; width:300px; height:100%; padding:16px 32px 32px; border:1px solid var(--neutral-700); border-radius: 36px; background: var(--neutral-800);}
 .snb .logo{display: flex; justify-content: center; align-items: center; width:100%; height:64px; font-size:26px; font-weight: 700; white-space: nowrap; color:var(--neutral-500);}
 .snb .nav{display: flex; font-size:14px; flex:1 1 0; min-height: 0;}
 .snb .nav > ul{ flex:1 1 0; min-height: 0; overflow-y: auto;}
@@ -117,8 +118,5 @@
 .snb .nav > ul > li.on > ul li a{color:var(--neutral-500)}
 .snb .nav > ul > li.on > ul li.on a{color:var(--neutral-100);}
 .snb .nav > ul > li.on > ul li.on a::before{position: absolute; content:''; left:-10px; top:50%; transform: translateY(-50%); width:6px; height:6px; border-radius: 50%; background: var(--blue-500);}
-
-
-
 .content-area{flex:1 1 0; min-height:0;}
 
