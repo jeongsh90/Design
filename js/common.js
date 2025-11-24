@@ -1,5 +1,8 @@
 $(function () {
 
+    const repo = window.location.pathname.split('/')[1];
+    const base = '/' + repo + '/';
+
     function getRootText() {
         return $('.snb .nav > ul > li').first().children('a').text().trim();
     }
@@ -47,11 +50,15 @@ $(function () {
 
     function fixPath(href) {
         if (!href) return '';
-        var clean = href.replace(/^\/+/, '');
-        if (clean === 'index.html') return '/main.html';
-        if (clean === 'main.html') return '/main.html';
-        if (clean.startsWith('content/')) return '/' + clean;
-        return '/content/' + clean;
+        href = href.replace(/^\/+/, '');
+
+        if (href === 'index.html') href = 'main.html';
+
+        if (href.startsWith('content/')) {
+            return base + href;
+        }
+
+        return base + href;
     }
 
     $('.snb .nav > ul > li').each(function () {
@@ -66,8 +73,9 @@ $(function () {
         var href = fixPath($(this).attr('href'));
         var sub = li.children('ul');
 
-        if ($(this).hasClass('logo') || href === '/main.html') {
+        if ($(this).hasClass('logo') || href.endsWith('main.html')) {
             e.preventDefault();
+
             $('.snb .nav li').removeClass('on');
             li.addClass('on');
             $('.snb .nav > ul > li > ul').stop().slideUp(200);
@@ -76,7 +84,7 @@ $(function () {
 
             $('.area-inner')
                 .css({ opacity: 0 })
-                .load('/main.html', function () {
+                .load(base + 'main.html', function () {
                     var title = getRootText();
                     ensurePageHead(title);
                     updateBreadcrumb(li, title);
@@ -101,6 +109,7 @@ $(function () {
 
         if (href.endsWith('.html')) {
             e.preventDefault();
+
             $('.snb .nav li').removeClass('on');
             li.addClass('on');
             $('.snb .nav > ul > li > ul').stop().slideUp(200);
@@ -144,7 +153,8 @@ $(function () {
             });
     });
 
-    $('.area-inner').load('/main.html', function () {
+
+    $('.area-inner').load(base + 'main.html', function () {
         var root = getRootText();
         $('.content-area').attr('id', root);
         ensurePageHead(root);
