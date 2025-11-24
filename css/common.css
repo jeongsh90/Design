@@ -26,8 +26,6 @@
     --light-900-rgb  :  23,  23,  23;
     --light-950-rgb  :  10,  10,  10;
 
-
-
     --dark-Base: #000000;
     --dark-50  : #0A0A0A;
     --dark-100 : #171717;
@@ -52,8 +50,6 @@
     --dark-800-rgb  :  229, 229, 229;
     --dark-900-rgb  :  245, 245, 245;
     --dark-950-rgb  :  250, 250, 250;
-
-
 
     --primary-100: #eaf4ff;
     --primary-200: #1a68ff;
@@ -86,7 +82,6 @@
     --blue-300-rgb: 141, 193, 255;
     --blue-400-rgb: 100, 167, 255;
     --blue-500-rgb:  25, 103, 255;
-
 
     --green-100: #eef9f5;
     --green-200: #e2fbea;
@@ -142,6 +137,7 @@
 
 .main-wrap {display: flex; gap:18px; width:100%; height:100vh; padding:36px; overflow: hidden;  background: var(--main-bg) radial-gradient(rgba(var(--light-700-rgb), .15) 1.5px, transparent 0) 0 0 / 40px 40px;}
 .snb{display: flex; flex-direction: column; gap:16px; width:300px; height:100%; padding:32px; border:1px solid var(--light-300); border-radius: 36px; backdrop-filter: blur(10px);}
+.snb h3{font-size:16px; font-weight: 600; color:var(--light-500)}
 .snb .nav{display: flex; font-size:14px; flex:1 1 0; min-height: 0;}
 .snb .nav > ul{ flex:1 1 0; min-height: 0; overflow-y: auto;}
 .snb .nav > ul::-webkit-scrollbar{width:0;}
@@ -173,7 +169,7 @@ header h2 .desc1{font-size:24px; font-weight: 700;}
 header h2 .desc2{font-size:14px; color:var(--light-400)}
 header .site-map-btn{display: flex; flex-direction: column; justify-content: center; align-items: center; gap:6px; width:50px; height:50px; border:2px solid var(--light-900); border-radius: 50%; cursor: pointer;}
 header .site-map-btn span{width:50%; height:2px; background: var(--light-900);}
-header .site-info{color:var(--light-400); writing-mode: vertical-rl; line-height: 1; letter-spacing: 2px;}
+header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:var(--light-500); writing-mode: vertical-rl; line-height: 1; letter-spacing: 2px; background: var(--light-200);}
 .content-area{position: relative; display: flex; flex-direction: column; flex:1 1 0; min-height:0; padding:36px; border-radius: 36px; background: var(--light-100); overflow: hidden; box-shadow: 0 16px 32px rgba(var(--light-900-rgb), .1);}
 .area-inner{display: flex; flex-direction: column; gap:25px; flex:1 1 0; min-height:0;}
 
@@ -190,6 +186,8 @@ header .site-info{color:var(--light-400); writing-mode: vertical-rl; line-height
 .page-body .container{display: block; width:100%; height:100%; overflow: hidden; overflow-y: auto;}
 .page-body .container::-webkit-scrollbar{background: #fff; width:10px; border-radius: 999px;}
 .page-body .container::-webkit-scrollbar-thumb{background: var(--light-600); border-radius: 999px;}
+
+/* 커스텀 스크롤 */
 /* .scroll-bar{position: absolute; right:0; top:0; background: var(--light-200); width:6px; height:100%; border-radius: 100px;}
 .scroll-bar span{position: absolute; left:0; top:0; width:100%; height:200px; background: var(--blue-500); border-radius: 100px;}
 .scroll-bar span:hover{cursor: pointer;} */
