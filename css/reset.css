@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @layer reset {
-  :root { color-scheme: light dark; }
+  :root { color-scheme: light; }
 
   *, *::before, *::after { box-sizing: border-box; }
 
@@ -16,8 +16,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #1E1E1E;
-    color:#fff;
+    
   }
 
   a { color: inherit; text-decoration: none; text-underline-offset: 0.15em; }
