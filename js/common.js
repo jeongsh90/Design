@@ -188,9 +188,11 @@ $(function () {
     // ----------------------------------------------------
     // 초기 로드(main.html)
     // ----------------------------------------------------
-$('.area-inner').load(base + 'content/page-color.html', function () {
+$('.area-inner').load(base + 'main.html', function () {
+// $('.area-inner').load(base + 'content/page-color.html', function () {
     var root = getRootText();
-    $('.content-area').attr('id', 'page-color');
+    $('.content-area').attr('id', 'main');
+    // $('.content-area').attr('id', 'page-color');
     ensurePageHead(root);
     var li = $('.snb .nav > ul > li').first();
     updateBreadcrumb(li, root);

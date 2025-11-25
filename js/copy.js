@@ -1,9 +1,6 @@
 // copy.js
 $(function () {
 
-    /* ------------------------------------------------------------
-       1. 토스트 컨테이너 자동 생성 (필요 시 자동 생성)
-    ------------------------------------------------------------ */
     const containerId = "toast-container";
     let container = document.getElementById(containerId);
 
@@ -13,9 +10,6 @@ $(function () {
         document.body.appendChild(container);
     }
 
-    /* ------------------------------------------------------------
-       2. 토스트 메시지 함수
-    ------------------------------------------------------------ */
     function showToast(message, type = "success") {
         const toast = document.createElement("div");
         toast.className = "toast " + type; // CSS는 너가 작성
@@ -28,9 +22,6 @@ $(function () {
         }, 2600);
     }
 
-    /* ------------------------------------------------------------
-       3. .copy 클릭 → HTML 복사 + 토스트 표시
-    ------------------------------------------------------------ */
     $(document).on("click", ".copy", function () {
 
         const html = $(this).html().trim();

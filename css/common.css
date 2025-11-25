@@ -215,7 +215,7 @@ header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:
 .area-inner{display: flex; flex-direction: column; gap:25px; flex:1 1 0; min-height:0;}
 
 
-.page-head{display: flex; align-items: flex-end; gap:16px;}
+.page-head{display: flex; align-items: flex-end; gap:16px; position: relative;}
 .page-head h2{font-size:36px; font-weight: 700; line-height: 1;}
 .page-head .breadcrumb{display: flex; align-items: flex-start; gap:5px; font-weight: 500;}
 .page-head .breadcrumb li:first-child{display: none;}
@@ -250,7 +250,6 @@ header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:
 
 .copy{cursor: pointer; transition: all .3s ease;}
 .copy:hover{transform: scale(.94);}
-.copy:not(:hover){opacity: .1;}
 #toast-container { position: fixed; bottom:20px; left:50%; transform: translateX(-50%); z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
 .toast {display: flex; justify-content: center; align-items: center;  min-width: 200px; padding: 12px 18px; border-radius: 10px; color: #fff; font-size: 14px; font-weight: 500; box-shadow: 0 6px 16px rgba(0,0,0,0.15); opacity: 0; transform: translateY(-10px); animation: toast-in 0.25s forwards, toast-out 0.4s forwards 2.2s; }
 .toast.success { background: var(--primary-200, #1a68ff); }
