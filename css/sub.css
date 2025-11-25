@@ -1,8 +1,5 @@
 @charset "UTF-8";
-
-#page-color .container{}
 #page-color .content-group{display: flex; flex-direction: column; width:100%;}
-
 #page-color .content-group ul{display: flex; flex-wrap: wrap;}
 #page-color .content-group ul li{position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap:5px; width:calc(100% / 6); padding:15px; aspect-ratio: 1; font-size:16px; line-height: 1;}
 #page-color .content-group ul li::before{content:attr(label); font-size:13px; opacity: .5;}
