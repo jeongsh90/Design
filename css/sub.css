@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#page-color .container{display: flex; flex-direction: column; gap:50px;}
+#page-color .content-group{display: flex; flex-direction: column; width:100%;}
+
+#page-color .content-group ul{display: flex;}
+#page-color .content-group ul li{position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap:5px; flex:1; padding:15px; aspect-ratio: 1; font-size:18px; line-height: 1;}
+#page-color .content-group ul li::before{content:attr(label); font-size:14px; opacity: .5;}
+#page-color .group1 ul li:nth-child(1){background: var(--light-Base);}
+#page-color .group1 ul li:nth-child(2){background: var(--light-50);}
+#page-color .group1 ul li:nth-child(3){background: var(--light-100);}
+#page-color .group1 ul li:nth-child(4){background: var(--light-200);}
+#page-color .group1 ul li:nth-child(5){background: var(--light-300);}
+#page-color .group1 ul li:nth-child(6){background: var(--light-400);}
+#page-color .group1 ul li:nth-child(7){background: var(--light-500); color:var(--light-100);}
+#page-color .group1 ul li:nth-child(8){background: var(--light-600); color:var(--light-100);}
+#page-color .group1 ul li:nth-child(9){background: var(--light-700); color:var(--light-100);}
+#page-color .group1 ul li:nth-child(10){background: var(--light-800); color:var(--light-100);}
+#page-color .group1 ul li:nth-child(11){background: var(--light-900); color:var(--light-100);}
+#page-color .group1 ul li:nth-child(12){background: var(--light-950); color:var(--light-100);}
+
+#page-color .group2 ul li:nth-child(1){background: var(--dark-Base); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(2){background: var(--dark-50); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(3){background: var(--dark-100); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(4){background: var(--dark-200); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(5){background: var(--dark-300); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(6){background: var(--dark-400); color:var(--light-100);}
+#page-color .group2 ul li:nth-child(7){background: var(--dark-500);}
+#page-color .group2 ul li:nth-child(8){background: var(--dark-600);}
+#page-color .group2 ul li:nth-child(9){background: var(--dark-700);}
+#page-color .group2 ul li:nth-child(10){background: var(--dark-800);}
+#page-color .group2 ul li:nth-child(11){background: var(--dark-900);}
+#page-color .group2 ul li:nth-child(12){background: var(--dark-950);}
