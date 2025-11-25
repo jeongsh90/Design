@@ -28,7 +28,7 @@ $(function () {
 
         navigator.clipboard.writeText(html)
             .then(() => {
-                showToast("복사 완료!", "success");
+                showToast("클립보드에 복사되었습니다.", "success");
             })
             .catch(err => {
                 console.error("복사 실패:", err);

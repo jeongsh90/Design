@@ -51,27 +51,6 @@
     --dark-900-rgb  :  245, 245, 245;
     --dark-950-rgb  :  250, 250, 250;
 
-    --primary-100: #eaf4ff;
-    --primary-200: #1a68ff;
-    --primary-300: #ffc700;
-    --primary-400: #63de77;
-    --accent-blue: #2388ff;
-    
-    --primary-100-rgb: 234, 244, 255;
-    --primary-200-rgb: 26, 104, 255;
-    --primary-300-rgb: 255, 199, 0;
-    --primary-400-rgb: 99, 222, 119;
-    --accent-blue-rgb: 35, 136, 255;
-    --accent-red-rgb: 255, 45, 70;
-
-    --secondary-100: #050811;
-    --secondary-200: #eaf4ff;
-    --secondary-300: #de1f35;
-    --secondary-400: #ffe8ea;
-    --secondary-500: #e79800;
-    --secondary-600: #fff9e5;
-    --secondary-800: #e5f8e8;
-
     --blue-100: #e3efff;
     --blue-200: #c3ddff;
     --blue-300: #8dc1ff;
@@ -143,6 +122,7 @@
 
 /* icon class*/
 .icon{display: inline-flex; width: 1em; height: 1em; vertical-align: -0.125em; background-color: currentColor; mask-repeat: no-repeat; mask-position: center; mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; -webkit-mask-size: contain;}
+
 .arrow-type1{mask-image: var(--arrow-type1);}
 .rocket-outline{mask-image: var(--rocket-outline);}
 
@@ -251,8 +231,8 @@ header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:
 .copy{cursor: pointer; transition: all .3s ease;}
 .copy:hover{transform: scale(.94);}
 #toast-container { position: fixed; bottom:20px; left:50%; transform: translateX(-50%); z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
-.toast {display: flex; justify-content: center; align-items: center;  min-width: 200px; padding: 12px 18px; border-radius: 10px; color: #fff; font-size: 14px; font-weight: 500; box-shadow: 0 6px 16px rgba(0,0,0,0.15); opacity: 0; transform: translateY(-10px); animation: toast-in 0.25s forwards, toast-out 0.4s forwards 2.2s; }
-.toast.success { background: var(--primary-200, #1a68ff); }
+.toast {display: flex; justify-content: center; align-items: center;  min-width: 200px; padding: 12px 18px; border-radius: 10px; color: #fff; font-size: 14px; font-weight: 500; box-shadow: 0 6px 16px rgba(0,0,0,0.15); opacity: 0; transform: translateY(-10px); animation: toast-in 0.25s forwards, toast-out 0.4s forwards 2.2s; backdrop-filter: blur(10px);}
+.toast.success { background: rgba(var(--blue-500-rgb), .9);}
 .toast.error { background: #e15759; }
 
 @keyframes toast-in {
