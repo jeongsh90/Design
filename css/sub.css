@@ -54,7 +54,12 @@
 #page-font .group2 .code {font-size:0;}
 #page-font .group2 .code::before{content:attr(txt); font-size:16px;}
 
-
+/* 아이콘 */
+#page-icon .group1 .content{display: flex; flex-wrap: wrap; --page-icon-group1-gap:15px; gap:var(--page-icon-group1-gap); width:100%;}
+#page-icon .group1 .item{display: flex; flex-direction: column; align-items: center; justify-content: center; width:calc((100% - var(--page-icon-group1-gap) * 14) / 15);}
+#page-icon .group1 span{display: flex; align-items: center; justify-content: center; width:100%; border:1px solid var(--light-300); border-radius: 10px; aspect-ratio: 1;}
+#page-icon .group1 i{font-size:32px;}
+#page-icon .group1 p{font-size:12px;}
 
 
 

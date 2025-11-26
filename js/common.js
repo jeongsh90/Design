@@ -189,10 +189,10 @@ $(function () {
     // 초기 로드(main.html)
     // ----------------------------------------------------
 $('.area-inner').load(base + 'main.html', function () {
-// $('.area-inner').load(base + 'content/page-font.html', function () {
+// $('.area-inner').load(base + 'content/page-icon.html', function () {
     var root = getRootText();
     $('.content-area').attr('id', 'main');
-    // $('.content-area').attr('id', 'page-font');
+    // $('.content-area').attr('id', 'page-icon');
     ensurePageHead(root);
     var li = $('.snb .nav > ul > li').first();
     updateBreadcrumb(li, root);
