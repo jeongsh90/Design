@@ -188,16 +188,28 @@ $(function () {
     // ----------------------------------------------------
     // 초기 로드(main.html)
     // ----------------------------------------------------
-$('.area-inner').load(base + 'main.html', function () {
-// $('.area-inner').load(base + 'content/page-icon.html', function () {
-    var root = getRootText();
-    $('.content-area').attr('id', 'main');
-    // $('.content-area').attr('id', 'page-icon');
-    ensurePageHead(root);
-    var li = $('.snb .nav > ul > li').first();
-    updateBreadcrumb(li, root);
-});
+    $('.area-inner').load(base + 'main.html', function () {
+    // $('.area-inner').load(base + 'content/page-icon.html', function () {
+        var root = getRootText();
+        $('.content-area').attr('id', 'main');
+        // $('.content-area').attr('id', 'page-icon');
+        ensurePageHead(root);
+        var li = $('.snb .nav > ul > li').first();
+        updateBreadcrumb(li, root);
+    });
 
 });
 
+
+$(document).ajaxComplete(function () {
+    Prism.highlightAll();
+    document.querySelectorAll("code").forEach(code => {
+        let text = code.innerHTML;
+        text = text.replace(/^\s*\n/, "");
+        const indent = text.match(/^\s+/)?.[0].length || 0;
+        text = text.split("\n").map(line => line.slice(indent)).join("\n");
+        code.innerHTML = text;
+    });
+
+});
 

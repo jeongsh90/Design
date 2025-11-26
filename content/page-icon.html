@@ -2,32 +2,80 @@
     <div class="container">
         <div class="container-inner">
             <div class="box-type1">
-                <p> 아이콘 가이드는 브랜드 아이덴티티를 기반으로 설계된 표준화된 시스템 아이콘 세트를 통해 인터페이스 전반에서 통일된 시각 언어를 유지하고 정보 구조의 명확성과 인지 효율을 향상시키며, 다양한 화면 환경에서도 시각적 일관성과 기술적 완성도를 확보하여 사용자 경험의 신뢰성을 높이는 것을 목표로 합니다. </p>
+                <p>
+                    시스템 전역에서 일관된 시각 언어를 유지하기 위해 모든 UI 컴포넌트는 동일한 아이콘 규칙을 사용하며 CSS 변수 기반의 SVG 마스크(Mask-image) 방식으로 제공됩니다.
+                </p>
             </div>
             <div class="content-group group1 mgt50" id="pin1">
                 <h2 class="t-type1">시스템 아이콘</h2>
-                <div class="content mgt15">
-                    <div class="item"><span class="copy"><i class="icon arrow-down"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon arrow-left"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon arrow-right"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon arrow-up"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon plus"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon minus"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
-                    <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                <p>
+                    시스템 아이콘은 인터페이스 전반에서 일관된 시각 언어를 유지하도록 설계된 기본 아이콘 세트입니다. 
+                    각 아이콘은 동일한 규칙(선 두께, 여백, 비율)을 기반으로 제작되어 다양한 UI 요소와 결합했을 때 시각적 안정성과 기능적 명확성을 제공합니다. 
+                    또한 <span class="t-blue">아이콘 클릭 시 해당 아이콘의 코드가 자동으로 클립보드에 복사</span>되어, 개발 및 디자인 과정에서 빠르게 활용할 수 있습니다.
+                </p>
+                <div class="box-type2 mgt15">
+                    <div class="content">
+                        <div class="item"><span class="copy"><i class="icon arrow-down"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon arrow-left"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon arrow-right"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon arrow-up"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon plus"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon minus"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                        <div class="item"><span class="copy"><i class="icon"></i></span></div>
+                    </div>
                 </div>
+            </div>
+
+            <div class="content-group group2 mgt50" id="pin2">
+                <h2 class="t-type1">코드 사용 예시</h2>
+                <p>
+                    아래는 시스템 아이콘을 HTML 코드 형태로 사용할 때의 예시입니다. 
+                    아이콘은 모두 <span class="t-blue">&lt;i class="icon ..."&gt;&lt;/i&gt;</span> 구조로 호출됩니다. <br>
+                    클래스 조합에 따라 원하는 아이콘을 지정할 수 있습니다. 
+                </p>
+                <div class="code-box mgt15">
+                <pre><code class="language-html">
+                &lt;i class="icon arrow-left"&gt;&lt;/i&gt; 
+                &lt;i class="icon arrow-up"&gt;&lt;/i&gt;
+                &lt;i class="icon plus"&gt;&lt;/i&gt;
+                </code></pre>
+                </div>
+            </div>
+
+            <div class="content-group group2 mgt50" id="pin3">
+                <h2 class="t-type1">아이콘 사이즈 규칙</h2>
+                <p>
+                    아이콘은 폰트 아이콘(Font Icon) 방식으로 제작되었으며, <span class="t-blue">크기는 font-size</span>,  <span class="t-blue">색상은 color</span> 속성을 통해 지정합니다.  
+                    기본 정렬 기준은 1em이며, 텍스트 라인과 자연스럽게 맞추기 위해 -0.125em의 하단 보정값이 적용됩니다. <br>
+                </p>
+                <div class="code-box mgt15">
+                <pre><code class="language-css">
+                .icon {
+                    font-size: 20px;
+                    color: #4e8cff;
+                }
+                </code></pre>
+                </div>
+
+                <div class="code-box mgt15">
+                <pre><code class="language-html">
+                &lt;i class="icon arrow-left" style="font-size:20px; color:#4e8cff;"&gt;&lt;/i&gt;
+                </code></pre>
+                </div>
+
             </div>
         </div>
     </div>
@@ -37,11 +85,9 @@
             <span class="desc2">색상</span>
         </h3>
         <ul>
-            <li class="on"><a href="#pin1">시스템아이콘</a></li>
-            <li><a href="#pin2">사용방법</a></li>
-            <li><a href="#pin3"></a></li>
-            <li><a href="#pin4"></a></li>
-            
+            <li class="on"><a href="#pin1">전체 아이콘 미리보기</a></li>
+            <li><a href="#pin2">코드 블록 사용 예시</a></li>
+            <li><a href="#pin3">아이콘 사이즈 규칙</a></li>
         </ul>
     </div>
 </div>
