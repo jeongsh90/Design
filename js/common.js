@@ -185,9 +185,7 @@ $(function () {
             });
     });
 
-    // ----------------------------------------------------
     // 초기 로드(main.html)
-    // ----------------------------------------------------
     $('.area-inner').load(base + 'main.html', function () {
     // $('.area-inner').load(base + 'content/page-icon.html', function () {
         var root = getRootText();
@@ -210,6 +208,41 @@ $(document).ajaxComplete(function () {
         text = text.split("\n").map(line => line.slice(indent)).join("\n");
         code.innerHTML = text;
     });
+    document.querySelectorAll(".code-box").forEach(box => {
+        if (box.querySelector(".code-copy-btn")) return;
+        const btn = document.createElement("button");
+        btn.className = "code-copy-btn";
+        btn.innerText = "코드 복사"; 
+        
+        box.prepend(btn);
+        btn.addEventListener("click", () => {
+            const codeEl = box.querySelector("code");
+            if (!codeEl) return;
 
+            const text = codeEl.innerText;
+
+            navigator.clipboard.writeText(text)
+                .then(() => {
+                    btn.innerText = "복사됨!";
+                    btn.classList.add("success");
+
+                    setTimeout(() => {
+                        btn.innerText = "코드 복사";
+                        btn.classList.remove("success");
+                    }, 1200);
+                })
+                .catch(() => {
+                    btn.innerText = "실패!";
+                    btn.classList.add("error");
+
+                    setTimeout(() => {
+                        btn.innerText = "코드 복사";
+                        btn.classList.remove("error");
+                    }, 1200);
+                });
+        });
+
+    });
 });
+
 

@@ -280,7 +280,7 @@ header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:
 .page-nav h3 .desc2{font-size:21px; font-weight: 700;}
 .page-nav ul{display: flex; flex-direction: column; gap:4px;}
 .page-nav ul li{display: flex;}
-.page-nav ul li a{position: relative; display: flex; padding:6px 12px; border:1px solid transparent; border-radius: 100px; font-size:15px; line-height: 1; white-space: nowrap; color:var(--light-900); transition: all .3s ease;}
+.page-nav ul li a{position: relative; display: flex; padding:6px 12px; border:1px solid transparent; border-radius: 100px; font-size:14px; line-height: 1; white-space: nowrap; color:var(--light-900); transition: all .3s ease;}
 .page-nav ul li a:hover{border:1px solid var(--light-300)}
 .page-nav ul li.on a{ background: var(--light-200);}
 .page-nav ul li.on a:hover{border-color:transparent;}
@@ -310,11 +310,18 @@ header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:
 
 
 
-.code-box { background:#1e1e1e; padding:32px; border-radius:12px; overflow:auto; position:relative; }
+.code-box {position: relative; background:#1e1e1e; padding:32px; border-radius:12px; overflow:auto; position:relative; }
 .code-box code { color:#d4d4d4; font-family:'Fira Code', Consolas, monospace; font-size:14px; line-height:1.6; }
 :not(pre) > code[class*="language-"], pre[class*="language-"]{background: transparent;}
 code[class*="language-"], pre[class*="language-"]{text-shadow: none;}
 pre[class*="language-"]{padding:0; margin:0;}
+
+.code-copy-btn {position: absolute; right:20px; top:20px; color:var(--light-300); font-size:13px; font-weight: 400; line-height: 1;}
+.code-copy-btn:hover {color:var(--light-100);}
+.code-copy-btn.success {color:var(--light-Base)}
+.code-copy-btn.error { color:var(--red-400);}
+
+
 
 
 code[class*="language-"], pre[class*="language-"]{color:#d4d4d4;font-family:'Fira Code',Consolas,monospace;text-shadow:none !important;}
