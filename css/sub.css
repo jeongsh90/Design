@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* 색상 */
 #page-color .content-group{display: flex; flex-direction: column; width:100%;}
 #page-color .content-group ul{display: flex; flex-wrap: wrap;}
 #page-color .content-group ul li{position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap:5px; width:calc(100% / 6); padding:15px; aspect-ratio: 1; font-size:16px; line-height: 1;}
@@ -27,8 +28,6 @@
 #page-color .group2 ul li:nth-child(10){background: var(--dark-800);}
 #page-color .group2 ul li:nth-child(11){background: var(--dark-900);}
 #page-color .group2 ul li:nth-child(12){background: var(--dark-950);}
-
-
 #page-color .group3 ul li{width:calc(100% / 5);}
 #page-color .group3 .ul1 li:nth-child(1){ background: var(--blue-100);}
 #page-color .group3 .ul1 li:nth-child(2){ background: var(--blue-200);}
@@ -51,17 +50,16 @@
 #page-color .group3 .ul4 li:nth-child(4){background: var(--yellow-400);}
 #page-color .group3 .ul4 li:nth-child(5){background: var(--yellow-500); }
 
+/* 타이포그래피 */
+#page-font .group2 .code {font-size:0;}
+#page-font .group2 .code::before{content:attr(txt); font-size:16px;}
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
