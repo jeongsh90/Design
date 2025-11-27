@@ -109,7 +109,27 @@
     --arrow-left : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --%3E%3Cpath fill='currentColor' d='M14.71 15.88L10.83 12l3.88-3.88a.996.996 0 1 0-1.41-1.41L8.71 11.3a.996.996 0 0 0 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0c.38-.39.39-1.03 0-1.42'/%3E%3C/svg%3E");
     --arrow-right : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --%3E%3Cpath fill='currentColor' d='M9.29 15.88L13.17 12L9.29 8.12a.996.996 0 1 1 1.41-1.41l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3a.996.996 0 0 1-1.41 0c-.38-.39-.39-1.03 0-1.42'/%3E%3C/svg%3E");
     --plus : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='.8em' viewBox='0 0 24 24'%3E%3C!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --%3E%3Cpath fill='currentColor' d='M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2'/%3E%3C/svg%3E");
-    --minus : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='.8em' viewBox='0 0 24 24'%3E%3C!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --%3E%3Cpath fill='currentColor' d='M7 13q-.425 0-.712-.288T6 12t.288-.712T7 11h10q.425 0 .713.288T18 12t-.288.713T17 13z'/%3E%3C/svg%3E")
+    --minus : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='.8em' viewBox='0 0 24 24'%3E%3C!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --%3E%3Cpath fill='currentColor' d='M7 13q-.425 0-.712-.288T6 12t.288-.712T7 11h10q.425 0 .713.288T18 12t-.288.713T17 13z'/%3E%3C/svg%3E");
+
+    --close : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Sargam Icons by Abhimanyu Rana - https://github.com/planetabhi/sargam-icons/blob/main/LICENSE.txt --%3E%3Cpath fill='currentColor' d='M16.95 8.464a1 1 0 0 0-1.414-1.414L12 10.586L8.464 7.05A1 1 0 1 0 7.05 8.464L10.586 12L7.05 15.536a1 1 0 1 0 1.414 1.414L12 13.414l3.536 3.536a1 1 0 1 0 1.414-1.414L13.414 12z'/%3E%3C/svg%3E");
+    --calendar : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none'%3E%3Cpath stroke='currentColor' stroke-width='1.5' d='M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z'/%3E%3Cpath stroke='currentColor' stroke-linecap='round' stroke-width='1.5' d='M7 4V2.5M17 4V2.5M2.5 9h19'/%3E%3Cpath fill='currentColor' d='M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0'/%3E%3C/g%3E%3C/svg%3E");
+    --search : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Ccircle cx='11.5' cy='11.5' r='9.5'/%3E%3Cpath stroke-linecap='round' d='M18.5 18.5L22 22'/%3E%3C/g%3E%3C/svg%3E");
+    --zoomin : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Ccircle cx='11.5' cy='11.5' r='9.5'/%3E%3Cpath stroke-linecap='round' d='M9 11.5h2.5m0 0H14m-2.5 0V14m0-2.5V9M20 20l2 2'/%3E%3C/g%3E%3C/svg%3E");
+    --zoomout : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Ccircle cx='11.5' cy='11.5' r='9.5'/%3E%3Cpath stroke-linecap='round' d='M18.5 18.5L22 22M9 11.5h5'/%3E%3C/g%3E%3C/svg%3E");
+    --time : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Ccircle cx='12' cy='13' r='9'/%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M12 9v4l2.5 2.5m-11-11l4-2.5m13 2.5l-4-2.5'/%3E%3C/g%3E%3C/svg%3E");
+    --download : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' d='M12.554 16.506a.75.75 0 0 1-1.107 0l-4-4.375a.75.75 0 0 1 1.107-1.012l2.696 2.95V3a.75.75 0 0 1 1.5 0v11.068l2.697-2.95a.75.75 0 1 1 1.107 1.013z'/%3E%3Cpath fill='currentColor' d='M3.75 15a.75.75 0 0 0-1.5 0v.055c0 1.367 0 2.47.117 3.337c.12.9.38 1.658.981 2.26c.602.602 1.36.86 2.26.982c.867.116 1.97.116 3.337.116h6.11c1.367 0 2.47 0 3.337-.116c.9-.122 1.658-.38 2.26-.982s.86-1.36.982-2.26c.116-.867.116-1.97.116-3.337V15a.75.75 0 0 0-1.5 0c0 1.435-.002 2.436-.103 3.192c-.099.734-.28 1.122-.556 1.399c-.277.277-.665.457-1.4.556c-.755.101-1.756.103-3.191.103H9c-1.435 0-2.437-.002-3.192-.103c-.734-.099-1.122-.28-1.399-.556c-.277-.277-.457-.665-.556-1.4c-.101-.755-.103-1.756-.103-3.191'/%3E%3C/svg%3E");
+    --upload : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' d='M12.554 2.494a.75.75 0 0 0-1.107 0l-4 4.375A.75.75 0 0 0 8.553 7.88l2.696-2.95V16a.75.75 0 0 0 1.5 0V4.932l2.697 2.95a.75.75 0 1 0 1.107-1.013z'/%3E%3Cpath fill='currentColor' d='M3.75 15a.75.75 0 0 0-1.5 0v.055c0 1.367 0 2.47.117 3.337c.12.9.38 1.658.981 2.26c.602.602 1.36.86 2.26.982c.867.116 1.97.116 3.337.116h6.11c1.367 0 2.47 0 3.337-.116c.9-.122 1.658-.38 2.26-.982s.86-1.36.982-2.26c.116-.867.116-1.97.116-3.337V15a.75.75 0 0 0-1.5 0c0 1.435-.002 2.436-.103 3.192c-.099.734-.28 1.122-.556 1.399c-.277.277-.665.457-1.4.556c-.755.101-1.756.103-3.191.103H9c-1.435 0-2.437-.002-3.192-.103c-.734-.099-1.122-.28-1.399-.556c-.277-.277-.457-.665-.556-1.4c-.101-.755-.103-1.756-.103-3.191'/%3E%3C/svg%3E");
+    --home : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Cpath d='M2 12.204c0-2.289 0-3.433.52-4.381c.518-.949 1.467-1.537 3.364-2.715l2-1.241C9.889 2.622 10.892 2 12 2s2.11.622 4.116 1.867l2 1.241c1.897 1.178 2.846 1.766 3.365 2.715S22 9.915 22 12.203v1.522c0 3.9 0 5.851-1.172 7.063S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.212S2 17.626 2 13.725z'/%3E%3Cpath stroke-linecap='round' d='M12 15v3'/%3E%3C/g%3E%3C/svg%3E");
+    --keyboard : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' d='M7 9a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m3 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m3 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m3-3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m3-3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0'/%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M7.945 4.25h8.11c1.367 0 2.47 0 3.337.117c.9.12 1.658.38 2.26.981c.602.602.86 1.36.982 2.26c.116.867.116 1.97.116 3.337v2.11c0 1.367 0 2.47-.116 3.337c-.122.9-.38 1.658-.982 2.26s-1.36.86-2.26.982c-.867.116-1.97.116-3.337.116h-8.11c-1.367 0-2.47 0-3.337-.116c-.9-.122-1.658-.38-2.26-.982s-.86-1.36-.981-2.26c-.117-.867-.117-1.97-.117-3.337v-2.11c0-1.367 0-2.47.117-3.337c.12-.9.38-1.658.981-2.26c.602-.602 1.36-.86 2.26-.981c.867-.117 1.97-.117 3.337-.117M4.808 5.853c-.734.099-1.122.28-1.399.556c-.277.277-.457.665-.556 1.4c-.101.754-.103 1.756-.103 3.191v2c0 1.435.002 2.437.103 3.192c.099.734.28 1.122.556 1.399c.277.277.665.457 1.4.556c.754.101 1.756.103 3.191.103h8c1.435 0 2.436-.002 3.192-.103c.734-.099 1.122-.28 1.399-.556c.277-.277.457-.665.556-1.4c.101-.754.103-1.756.103-3.191v-2c0-1.435-.002-2.437-.103-3.192c-.099-.734-.28-1.122-.556-1.399c-.277-.277-.665-.457-1.4-.556c-.755-.101-1.756-.103-3.191-.103H8c-1.435 0-2.437.002-3.192.103M6.25 16a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
+    --mouse : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M4.25 9a7.75 7.75 0 1 1 15.5 0v6a7.75 7.75 0 0 1-15.5 0zM12 2.75A6.25 6.25 0 0 0 5.75 9v6a6.25 6.25 0 1 0 12.5 0V9A6.25 6.25 0 0 0 12 2.75m0 1.5a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0V5a.75.75 0 0 1 .75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
+    --moniter : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='none' stroke='currentColor' stroke-width='1.5'%3E%3Cpath d='M2 10c0-3.771 0-5.657 1.172-6.828S6.229 2 10 2h4c3.771 0 5.657 0 6.828 1.172S22 6.229 22 10v1c0 2.828 0 4.243-.879 5.121C20.243 17 18.828 17 16 17H8c-2.828 0-4.243 0-5.121-.879C2 15.243 2 13.828 2 11z'/%3E%3Cpath stroke-linecap='round' d='M16 22H8m4-5v5m10-9H2'/%3E%3C/g%3E%3C/svg%3E");
+    --clip : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M8.886 3.363c2.942-2.817 7.7-2.817 10.643 0c2.961 2.834 2.961 7.444 0 10.279l-7.948 7.608c-2.09 2-5.466 2-7.556 0a5.03 5.03 0 0 1 0-7.324l7.834-7.498a3.253 3.253 0 0 1 4.468 0a3 3 0 0 1 0 4.367l-7.89 7.554a.75.75 0 1 1-1.038-1.084l7.89-7.553a1.503 1.503 0 0 0 0-2.2a1.753 1.753 0 0 0-2.393 0L5.062 15.01a3.53 3.53 0 0 0 0 5.156c1.51 1.445 3.972 1.445 5.482 0l7.948-7.608c2.344-2.244 2.344-5.868 0-8.112c-2.363-2.261-6.206-2.261-8.57 0l-6.403 6.13A.75.75 0 0 1 2.48 9.493z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    --reset : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m18.364 8.05l-.707-.707a8 8 0 1 0 2.28 4.658m-1.573-3.95h-4.243m4.243 0V3.807'/%3E%3C/svg%3E");
+    --setting : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cg fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath d='M12 8.25a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5M9.75 12a2.25 2.25 0 1 1 4.5 0a2.25 2.25 0 0 1-4.5 0'/%3E%3Cpath d='M11.975 1.25c-.445 0-.816 0-1.12.02a2.8 2.8 0 0 0-.907.19a2.75 2.75 0 0 0-1.489 1.488c-.145.35-.184.72-.2 1.122a.87.87 0 0 1-.415.731a.87.87 0 0 1-.841-.005c-.356-.188-.696-.339-1.072-.389a2.75 2.75 0 0 0-2.033.545a2.8 2.8 0 0 0-.617.691c-.17.254-.356.575-.578.96l-.025.044c-.223.385-.408.706-.542.98c-.14.286-.25.568-.29.88a2.75 2.75 0 0 0 .544 2.033c.231.301.532.52.872.734a.87.87 0 0 1 .426.726a.87.87 0 0 1-.426.726c-.34.214-.64.433-.872.734a2.75 2.75 0 0 0-.545 2.033c.041.312.15.594.29.88c.135.274.32.595.543.98l.025.044c.222.385.408.706.578.96c.177.263.367.5.617.69a2.75 2.75 0 0 0 2.033.546c.376-.05.716-.2 1.072-.389a.87.87 0 0 1 .84-.005a.86.86 0 0 1 .417.731c.015.402.054.772.2 1.122a2.75 2.75 0 0 0 1.488 1.489c.29.12.59.167.907.188c.304.021.675.021 1.12.021h.05c.445 0 .816 0 1.12-.02c.318-.022.617-.069.907-.19a2.75 2.75 0 0 0 1.489-1.488c.145-.35.184-.72.2-1.122a.87.87 0 0 1 .415-.732a.87.87 0 0 1 .841.006c.356.188.696.339 1.072.388a2.75 2.75 0 0 0 2.033-.544c.25-.192.44-.428.617-.691c.17-.254.356-.575.578-.96l.025-.044c.223-.385.408-.706.542-.98c.14-.286.25-.569.29-.88a2.75 2.75 0 0 0-.544-2.033c-.231-.301-.532-.52-.872-.734a.87.87 0 0 1-.426-.726c0-.278.152-.554.426-.726c.34-.214.64-.433.872-.734a2.75 2.75 0 0 0 .545-2.033a2.8 2.8 0 0 0-.29-.88a18 18 0 0 0-.543-.98l-.025-.044a18 18 0 0 0-.578-.96a2.8 2.8 0 0 0-.617-.69a2.75 2.75 0 0 0-2.033-.546c-.376.05-.716.2-1.072.389a.87.87 0 0 1-.84.005a.87.87 0 0 1-.417-.731c-.015-.402-.054-.772-.2-1.122a2.75 2.75 0 0 0-1.488-1.489c-.29-.12-.59-.167-.907-.188c-.304-.021-.675-.021-1.12-.021zm-1.453 1.595c.077-.032.194-.061.435-.078c.247-.017.567-.017 1.043-.017s.796 0 1.043.017c.241.017.358.046.435.078c.307.127.55.37.677.677c.04.096.073.247.086.604c.03.792.439 1.555 1.165 1.974s1.591.392 2.292.022c.316-.167.463-.214.567-.227a1.25 1.25 0 0 1 .924.247c.066.051.15.138.285.338c.139.206.299.483.537.895s.397.69.506.912c.107.217.14.333.15.416a1.25 1.25 0 0 1-.247.924c-.064.083-.178.187-.48.377c-.672.422-1.128 1.158-1.128 1.996s.456 1.574 1.128 1.996c.302.19.416.294.48.377c.202.263.29.595.247.924c-.01.083-.044.2-.15.416c-.109.223-.268.5-.506.912s-.399.689-.537.895c-.135.2-.219.287-.285.338a1.25 1.25 0 0 1-.924.247c-.104-.013-.25-.06-.567-.227c-.7-.37-1.566-.398-2.292.021s-1.135 1.183-1.165 1.975c-.013.357-.046.508-.086.604a1.25 1.25 0 0 1-.677.677c-.077.032-.194.061-.435.078c-.247.017-.567.017-1.043.017s-.796 0-1.043-.017c-.241-.017-.358-.046-.435-.078a1.25 1.25 0 0 1-.677-.677c-.04-.096-.073-.247-.086-.604c-.03-.792-.439-1.555-1.165-1.974s-1.591-.392-2.292-.022c-.316.167-.463.214-.567.227a1.25 1.25 0 0 1-.924-.247c-.066-.051-.15-.138-.285-.338a17 17 0 0 1-.537-.895c-.238-.412-.397-.69-.506-.912c-.107-.217-.14-.333-.15-.416a1.25 1.25 0 0 1 .247-.924c.064-.083.178-.187.48-.377c.672-.422 1.128-1.158 1.128-1.996s-.456-1.574-1.128-1.996c-.302-.19-.416-.294-.48-.377a1.25 1.25 0 0 1-.247-.924c.01-.083.044-.2.15-.416c.109-.223.268-.5.506-.912s.399-.689.537-.895c.135-.2.219-.287.285-.338a1.25 1.25 0 0 1 .924-.247c.104.013.25.06.567.227c.7.37 1.566.398 2.292-.022c.726-.419 1.135-1.182 1.165-1.974c.013-.357.046-.508.086-.604c.127-.307.37-.55.677-.677'/%3E%3C/g%3E%3C/svg%3E");
+    --star : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M11.292 3.308c-.394.514-.838 1.308-1.484 2.466l-.327.587l-.059.106c-.3.54-.555.998-.964 1.308c-.413.314-.917.427-1.503.559l-.114.026l-.636.144c-1.255.284-2.11.479-2.694.71c-.571.224-.691.409-.737.556c-.049.156-.05.395.29.937c.347.55.932 1.236 1.786 2.236l.434.507l.075.087c.403.47.739.862.893 1.358c.153.493.102 1.01.04 1.638l-.01.117l-.066.677c-.13 1.332-.216 2.25-.187 2.91c.03.66.169.842.28.926c.098.075.28.157.873-.013c.603-.172 1.405-.539 2.58-1.08l.596-.274l.109-.05c.545-.253 1.017-.471 1.533-.471s.988.218 1.533.47q.053.026.11.05l.595.275c1.175.541 1.977.908 2.58 1.08c.593.17.775.088.873.013c.111-.084.25-.267.28-.926c.03-.66-.058-1.578-.187-2.91l-.066-.677l-.01-.117c-.062-.628-.113-1.145.04-1.638c.154-.496.49-.888.893-1.358l.075-.087l.434-.507c.854-1 1.439-1.686 1.785-2.236c.341-.542.34-.78.291-.937c-.046-.147-.166-.332-.737-.556c-.585-.231-1.439-.426-2.694-.71l-.636-.144l-.114-.026c-.586-.132-1.09-.245-1.503-.559c-.41-.31-.663-.767-.964-1.308l-.058-.106l-.328-.587c-.646-1.158-1.09-1.952-1.484-2.466S12.114 2.75 12 2.75s-.315.044-.708.558m-1.19-.912C10.577 1.774 11.166 1.25 12 1.25s1.422.524 1.899 1.146c.468.612.965 1.503 1.572 2.592l.359.643c.392.704.493.854.619.95c.12.091.277.143 1.04.316l.7.158c1.176.266 2.145.485 2.85.763c.732.289 1.373.714 1.62 1.507c.244.785-.03 1.507-.454 2.18c-.412.655-1.07 1.425-1.874 2.365l-.475.555c-.517.604-.625.752-.676.915c-.051.167-.047.36.032 1.165l.071.738c.122 1.256.221 2.28.186 3.06c-.035.795-.215 1.557-.87 2.055c-.668.506-1.445.45-2.195.234c-.727-.208-1.633-.625-2.733-1.132l-.656-.302c-.718-.33-.871-.383-1.015-.383s-.297.053-1.015.383l-.655.302c-1.101.507-2.007.924-2.734 1.132c-.75.215-1.527.272-2.194-.234c-.656-.498-.836-1.26-.871-2.054c-.035-.78.064-1.805.186-3.06l.072-.739c.078-.806.082-.998.03-1.165c-.05-.163-.158-.31-.675-.915l-.475-.555c-.803-.94-1.461-1.71-1.873-2.364c-.425-.674-.699-1.396-.455-2.181c.247-.793.888-1.218 1.62-1.507c.705-.278 1.674-.497 2.85-.763l.063-.014l.636-.144c.764-.173.92-.225 1.041-.317c.126-.095.227-.245.62-.949l.358-.643c.607-1.09 1.104-1.98 1.572-2.592' clip-rule='evenodd'/%3E%3C/svg%3E");
+    --trash : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M10.31 2.25h3.38c.217 0 .406 0 .584.028a2.25 2.25 0 0 1 1.64 1.183c.084.16.143.339.212.544l.111.335l.03.085a1.25 1.25 0 0 0 1.233.825h3a.75.75 0 0 1 0 1.5h-17a.75.75 0 0 1 0-1.5h3.09a1.25 1.25 0 0 0 1.173-.91l.112-.335c.068-.205.127-.384.21-.544a2.25 2.25 0 0 1 1.641-1.183c.178-.028.367-.028.583-.028m-1.302 3a3 3 0 0 0 .175-.428l.1-.3c.091-.273.112-.328.133-.368a.75.75 0 0 1 .547-.395a3 3 0 0 1 .392-.009h3.29c.288 0 .348.002.392.01a.75.75 0 0 1 .547.394c.021.04.042.095.133.369l.1.3l.039.112q.059.164.136.315z' clip-rule='evenodd'/%3E%3Cpath fill='currentColor' d='M5.915 8.45a.75.75 0 1 0-1.497.1l.464 6.952c.085 1.282.154 2.318.316 3.132c.169.845.455 1.551 1.047 2.104s1.315.793 2.17.904c.822.108 1.86.108 3.146.108h.879c1.285 0 2.324 0 3.146-.108c.854-.111 1.578-.35 2.17-.904c.591-.553.877-1.26 1.046-2.104c.162-.813.23-1.85.316-3.132l.464-6.952a.75.75 0 0 0-1.497-.1l-.46 6.9c-.09 1.347-.154 2.285-.294 2.99c-.137.685-.327 1.047-.6 1.303c-.274.256-.648.422-1.34.512c-.713.093-1.653.095-3.004.095h-.774c-1.35 0-2.29-.002-3.004-.095c-.692-.09-1.066-.256-1.34-.512c-.273-.256-.463-.618-.6-1.302c-.14-.706-.204-1.644-.294-2.992z'/%3E%3Cpath fill='currentColor' d='M9.425 10.254a.75.75 0 0 1 .821.671l.5 5a.75.75 0 0 1-1.492.15l-.5-5a.75.75 0 0 1 .671-.821m5.15 0a.75.75 0 0 1 .671.82l-.5 5a.75.75 0 0 1-1.492-.149l.5-5a.75.75 0 0 1 .82-.671'/%3E%3C/svg%3E");
+    /* --aaaa : url(""); */
+
 }
 /* icon class*/
 .icon{display: inline-flex; width: 1em; height: 1em; vertical-align: -0.125em; background-color: currentColor; mask-repeat: no-repeat; mask-position: center; mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; -webkit-mask-size: contain;}
@@ -123,8 +143,27 @@
 .icon.solar-download{mask-image: var(--solar-download);}
 .icon.plus{mask-image: var(--plus);}
 .icon.minus{mask-image: var(--minus);}
+.icon.close{mask-image: var(--close);}
+.icon.calendar{mask-image: var(--calendar);}
+.icon.search{mask-image: var(--search);}
+.icon.zoomin{mask-image: var(--zoomin);}
+.icon.zoomout{mask-image: var(--zoomout);}
+.icon.time{mask-image: var(--time);}
+.icon.download{mask-image: var(--download);}
+.icon.upload{mask-image: var(--upload);}
+.icon.home{mask-image: var(--home);}
+.icon.keyboard{mask-image: var(--keyboard);}
+.icon.mouse{mask-image: var(--mouse);}
+.icon.moniter{mask-image: var(--moniter);}
+.icon.clip{mask-image: var(--clip);}
+.icon.reset{mask-image: var(--reset);}
+.icon.setting{mask-image: var(--setting);}
+.icon.star{mask-image: var(--star);}
+.icon.trash{mask-image: var(--trash);}
 
 .t-blue{color:var(--blue-500) !important;}
+.t-red{color:var(--red-500) !important}
+.t-green{color:var(--green-500) !important}
 
 .fx{display: flex;}
 .fx-col{flex-direction: column;}
@@ -212,153 +251,3 @@
 /* button */
 .b-type1{display: flex; align-items: center; gap:8px; padding:10px 15px; border:1px solid var(--light-300); border-radius: 100px; transition: all .3s ease;}
 .b-type1:hover{transform: scale(.94);}
-
-
-.main-wrap {display: flex; gap:18px; width:100%; height:100vh; padding:36px; overflow: hidden;  background: var(--main-bg) radial-gradient(rgba(var(--light-700-rgb), .15) 1.5px, transparent 0) 0 0 / 40px 40px;}
-.snb{display: flex; flex-direction: column; gap:16px; width:300px; height:100%; padding:32px; border:1px solid var(--light-300); border-radius: 36px; backdrop-filter: blur(10px);}
-.snb h3{font-size:16px; font-weight: 600; color:var(--light-500)}
-.snb .nav{display: flex; font-size:14px; flex:1 1 0; min-height: 0;}
-.snb .nav > ul{ flex:1 1 0; min-height: 0; overflow-y: auto;}
-.snb .nav > ul::-webkit-scrollbar{width:0;}
-.snb .nav > ul > li{display: flex; flex-direction: column; gap:10px; padding:16px; border-radius: 16px;}
-.snb .nav > ul > li.on{background: var(--light-950);}
-.snb .nav > ul > li a{position: relative; display: flex; align-items: center; gap:8px; color:var(--light-500); transition: all .3s ease;}
-.snb .nav > ul > li i{font-size:18px;}
-.snb .nav > ul > li.on a{color:var(--light-100);}
-.snb .nav > ul > li > a::after{position: absolute; content:''; right:0; top:50%; transform: translateY(-50%) rotate(90deg); width: 1em; height: 1em; font-size:18px; vertical-align: -0.125em; background-color: currentColor; mask-repeat: no-repeat; mask-position: center; mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; -webkit-mask-size: contain; mask-image: var(--arrow-type1); transition: all .3s ease;}
-.snb .nav > ul > li.no-sub > a::after{display: none;}
-.snb .nav > ul > li.on > a::after{transform: translateY(-50%) rotate(-90deg);}
-.snb .nav > ul li:hover > a{transform: translateX(5px);}
-.snb .nav > ul li.on:hover > a{transform: translateX(0);}
-.snb .nav > ul > li > ul li{padding:10px 10px 10px 20px; border-radius: 8px;}
-.snb .nav > ul > li > ul li.on{background: var(--neutral-800);}
-.snb .nav > ul > li > ul li:hover{background: rgba(var(--neutral-800-rgb),.65);}
-.snb .nav > ul > li > ul li a{display: flex; align-items: center;}
-.snb .nav > ul > li:hover > ul li a{transform: translateX(0);}
-.snb .nav > ul > li.on > ul li a{color:var(--light-400)}
-.snb .nav > ul > li.on > ul li:hover a{color: var(--light-300);}
-.snb .nav > ul > li.on > ul li.on a{color:var(--light-100);}
-.snb .nav > ul > li.on > ul li.on a::before{position: absolute; content:''; left:-15px; top:50%; transform: translateY(-50%); width:6px; height:6px; border-radius: 50%; background: var(--blue-500);}
-
-header{display: flex; flex-direction: column; align-items: center; justify-content: space-between; width:80px; height:100%; padding:15px 15px 24px; border-radius: 100px; background: var(--light-100); box-shadow: 0 16px 32px rgba(var(--light-900-rgb), .1);}
-header .group1{display: flex; flex-direction: column; gap:10px}
-header h2{display: flex; flex-direction: column; justify-content: center; gap:3px; writing-mode: vertical-rl;}
-header h2 span{line-height: 1;}
-header h2 .desc1{font-size:24px; font-weight: 700;}
-header h2 .desc2{font-size:14px; color:var(--light-400)}
-header .site-map-btn{display: flex; flex-direction: column; justify-content: center; align-items: center; gap:6px; width:50px; height:50px; border:2px solid var(--light-900); border-radius: 50%; cursor: pointer;}
-header .site-map-btn span{width:50%; height:2px; background: var(--light-900);}
-header .site-info{padding:11px 8px; border-radius: 100px; font-size:13px; color:var(--light-500); writing-mode: vertical-rl; line-height: 1; letter-spacing: 2px; background: var(--light-200);}
-
-.content-area{position: relative; display: flex; flex-direction: column; flex:1 1 0; min-height:0; padding:36px; border-radius: 36px; background: var(--light-100); overflow: hidden; box-shadow: 0 16px 32px rgba(var(--light-900-rgb), .1);}
-.area-inner{display: flex; flex-direction: column; gap:25px; flex:1 1 0; min-height:0;}
-
-
-.page-head{display: flex; align-items: flex-end; gap:16px; position: relative;}
-.page-head h2{font-size:32px; font-weight: 700; line-height: 1;}
-.page-head .breadcrumb{display: flex; align-items: flex-start; gap:5px; font-weight: 500;}
-.page-head .breadcrumb li:first-child{display: none;}
-.page-head .breadcrumb li{display: flex; align-items: center; gap:5px; font-size:18px; color:var(--light-400); line-height: 1;}
-.page-head .breadcrumb li::after{display: block; content:''; width:18px; height:18px; background: var(--arrow-type1) no-repeat center / 100%;}
-.page-head .breadcrumb li:last-child::after{display: none;}
-
-.page-body{position: relative; display: flex; align-items: flex-start; gap:20px; flex:1 1 0; min-height:0;}
-.page-body .container{display: block; width:100%; height:100%; overflow: hidden; overflow-y: auto; scroll-behavior: smooth;}
-.page-body .container-inner{padding-right:16px; padding-bottom:36px;}
-.page-body .container::-webkit-scrollbar{background: #fff; width:8px; border-radius: 999px;}
-.page-body .container::-webkit-scrollbar-thumb{background: var(--light-600); border-radius: 999px;}
-
-/* 커스텀 스크롤 */
-/* .scroll-bar{position: absolute; right:0; top:0; background: var(--light-200); width:6px; height:100%; border-radius: 100px;}
-.scroll-bar span{position: absolute; left:0; top:0; width:100%; height:200px; background: var(--blue-500); border-radius: 100px;}
-.scroll-bar span:hover{cursor: pointer;} */
-
-
-.page-nav{display: flex; flex-direction: column; gap:16px; min-width:240px; padding:32px; border:1px solid var(--light-300); border-radius: 18px;}
-.page-nav h3{display: flex; flex-direction: column;}
-.page-nav h3 .desc1{font-size: 14px; color:var(--light-500)}
-.page-nav h3 .desc2{font-size:21px; font-weight: 700;}
-.page-nav ul{display: flex; flex-direction: column; gap:4px;}
-.page-nav ul li{display: flex;}
-.page-nav ul li a{position: relative; display: flex; padding:6px 12px; border:1px solid transparent; border-radius: 100px; font-size:14px; line-height: 1; white-space: nowrap; color:var(--light-900); transition: all .3s ease;}
-.page-nav ul li a:hover{border:1px solid var(--light-300)}
-.page-nav ul li.on a{ background: var(--light-200);}
-.page-nav ul li.on a:hover{border-color:transparent;}
-
-.copy{cursor: pointer; transition: all .3s ease;}
-.copy:hover{transform: scale(.94);}
-.copy-tooltip { position: fixed; pointer-events: none; padding: 7px 10px; background: var(--light-900); color: var(--light-100); font-size: 12px; line-height: 1; border-radius: 6px; opacity: 0; transform: translate(-50%, -50%); transition: opacity 0.1s ease-out; z-index: 9999; }
-.copy-tooltip.success { background: var(--blue-500) !important; }
-.copy-tooltip.error { background: var(--red-500) !important; }
-
-
-#toast-container { position: fixed; bottom:20px; left:50%; transform: translateX(-50%); z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
-.toast {display: flex; justify-content: center; align-items: center;  min-width: 200px; padding: 12px 18px; border-radius: 10px; color: #fff; font-size: 14px; font-weight: 500; box-shadow: 0 6px 16px rgba(0,0,0,0.15); opacity: 0; transform: translateY(-10px); animation: toast-in 0.25s forwards, toast-out 0.4s forwards 2.2s; backdrop-filter: blur(10px);}
-.toast.success { background: rgba(var(--light-900-rgb), .9);}
-.toast.error { background: #e15759; }
-
-@keyframes toast-in {
-    from { opacity: 0; transform: translateY(100%); }
-    to   { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes toast-out {
-    from { opacity: 1; transform: translateY(0); }
-    to   { opacity: 0; transform: translateY(100%); }
-}
-
-
-
-
-.code-box {position: relative; background:#1e1e1e; padding:32px; border-radius:12px; overflow:auto; position:relative; }
-.code-box code { color:#d4d4d4; font-family:'Fira Code', Consolas, monospace; font-size:14px; line-height:1.6; }
-:not(pre) > code[class*="language-"], pre[class*="language-"]{background: transparent;}
-code[class*="language-"], pre[class*="language-"]{text-shadow: none;}
-pre[class*="language-"]{padding:0; margin:0;}
-
-.code-copy-btn {position: absolute; right:20px; top:20px; color:var(--light-300); font-size:13px; font-weight: 400; line-height: 1;}
-.code-copy-btn:hover {color:var(--light-100);}
-.code-copy-btn.success {color:var(--light-Base)}
-.code-copy-btn.error { color:var(--red-400);}
-
-
-
-
-code[class*="language-"], pre[class*="language-"]{color:#d4d4d4;font-family:'Fira Code',Consolas,monospace;text-shadow:none !important;}
-.token.string,.token.char,.token.attr-value{color:#CE9178;}
-.token.number,.token.symbol{color:#B5CEA8;}
-.token.operator{color:#D4D4D4;}
-.token.punctuation{color:#8f8f8f;}
-.token.comment{color:#6A9955;}
-.token.keyword{color:#C586C0;}
-.token.boolean,.token.constant{color:#569CD6;}
-.token.function{color:#DCDCAA;}
-.token.deleted{color:#F44747;}
-.token.inserted{color:#73C991;}
-.token.tag{color:#569CD6;}
-.token.attr-name{color:#9CDCFE;}
-.token.attr-value{color:#CE9178;}
-.token.doctype,.token.entity{color:#569CD6;}
-.token.selector,.token.class-name,.token.id,.token.pseudo-element,.token.pseudo-class,.token.combinator{color:#D7BA7D;}
-.token.property{color:#9CDCFE;}
-.token.color,.token.unit{color:#B5CEA8;}
-.token.important{color:#C586C0;}
-.token.regex{color:#D16969;}
-.token.template-string .token.interpolation{color:#9CDCFE;}
-.token.this{color:#569CD6;}
-.token.variable{color:#9CDCFE;}
-.token.keyword.php{color:#C586C0;}
-.token.function.php{color:#DCDCAA;}
-.token.operator.php{color:#D4D4D4;}
-.token.keyword.java{color:#C586C0;}
-.token.class-name.java{color:#D7BA7D;}
-.token.annotation{color:#569CD6;}
-
-
-
-
-.code-box::-webkit-scrollbar { height:8px; }
-.code-box::-webkit-scrollbar-thumb { background:#3a3a3a; border-radius:8px; }
-.code-box::-webkit-scrollbar-thumb:hover { background:#555; }
-.code-box::-webkit-scrollbar-track { background:#1c1c1c; }
-

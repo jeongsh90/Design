@@ -12,15 +12,13 @@ $(function () {
     const base = getBasePath();
 
     // ----------------------------------------------------
-
-    // 🔥 파일명 기반 ID 추출
     function getIdFromHref(href) {
         if (!href) return 'page';
 
-        href = href.replace(base, "");       // base 제거
-        href = href.split("?")[0];           // 파라미터 제거
-        const file = href.split("/").pop();  // 파일명 추출
-        return file.replace(".html", "");    // 확장자 제거
+        href = href.replace(base, "");
+        href = href.split("?")[0];
+        const file = href.split("/").pop();
+        return file.replace(".html", "");
     }
 
     function fixPath(href) {
@@ -70,8 +68,6 @@ $(function () {
         $('.page-head').append(html);
     }
 
-    // ----------------------------------------------------
-
     $('.snb .nav > ul > li').each(function () {
         if ($(this).children('ul').length === 0) {
             $(this).addClass('no-sub');
@@ -80,28 +76,20 @@ $(function () {
 
     $('.snb .nav > ul > li > ul').hide();
     $('.snb .nav > ul > li.on > ul').show();
-
-    // ----------------------------------------------------
-    // 🔥 1뎁스 메뉴 클릭 처리
-    // ----------------------------------------------------
     $('.snb .nav > ul > li > a, .snb .logo').on('click', function (e) {
 
         var li = $(this).parent('li');
         var rawHref = $(this).attr('href');
         var href = fixPath(rawHref);
         var sub = li.children('ul');
-
-        // HOME / 로고 클릭
+        
         if ($(this).hasClass('logo') || href.endsWith('main.html')) {
             e.preventDefault();
 
             $('.snb .nav li').removeClass('on');
             li.addClass('on');
             $('.snb .nav > ul > li > ul').slideUp(200);
-
-            // ID = 파일명(main)
             $('.content-area').attr('id', 'main');
-
             $('.area-inner')
                 .css({ opacity: 0 })
                 .load(base + 'main.html', function () {
@@ -152,10 +140,6 @@ $(function () {
                 });
         }
     });
-
-    // ----------------------------------------------------
-    // 🔥 2뎁스 메뉴 클릭 처리
-    // ----------------------------------------------------
     $('.snb .nav > ul > li > ul li > a').on('click', function (e) {
         e.preventDefault();
 
@@ -185,12 +169,12 @@ $(function () {
             });
     });
 
-    // 초기 로드(main.html)
-    $('.area-inner').load(base + 'main.html', function () {
-    // $('.area-inner').load(base + 'content/page-icon.html', function () {
+    // 초기 로드 파일
+    // $('.area-inner').load(base + 'main.html', function () {
+    $('.area-inner').load(base + 'content/page-icon.html', function () {
         var root = getRootText();
-        $('.content-area').attr('id', 'main');
-        // $('.content-area').attr('id', 'page-icon');
+        // $('.content-area').attr('id', 'main');
+        $('.content-area').attr('id', 'page-icon');
         ensurePageHead(root);
         var li = $('.snb .nav > ul > li').first();
         updateBreadcrumb(li, root);
@@ -199,50 +183,61 @@ $(function () {
 });
 
 
-$(document).ajaxComplete(function () {
-    Prism.highlightAll();
-    document.querySelectorAll("code").forEach(code => {
+function enhanceCodes() {
+    document.querySelectorAll("pre code").forEach(code => {
+
         let text = code.innerHTML;
+
+        text = text
+            .replace(/&lt;/g, "<")
+            .replace(/&gt;/g, ">")
+            .replace(/&amp;/g, "&");
+
         text = text.replace(/^\s*\n/, "");
-        const indent = text.match(/^\s+/)?.[0].length || 0;
-        text = text.split("\n").map(line => line.slice(indent)).join("\n");
-        code.innerHTML = text;
+
+        const indent = text.match(/^\s+/)?.[0]?.length || 0;
+
+        text = text
+            .split("\n")
+            .map(line => line.slice(indent))
+            .join("\n");
+
+        code.textContent = text;
     });
+
     document.querySelectorAll(".code-box").forEach(box => {
-        if (box.querySelector(".code-copy-btn")) return;
-        const btn = document.createElement("button");
-        btn.className = "code-copy-btn";
-        btn.innerText = "코드 복사"; 
-        
-        box.prepend(btn);
-        btn.addEventListener("click", () => {
-            const codeEl = box.querySelector("code");
-            if (!codeEl) return;
 
-            const text = codeEl.innerText;
+        if (!box.querySelector(".code-copy-btn")) {
+            const btn = document.createElement("button");
+            btn.className = "code-copy-btn";
+            btn.innerText = "코드 복사";
+            box.prepend(btn);
 
-            navigator.clipboard.writeText(text)
-                .then(() => {
-                    btn.innerText = "복사됨!";
-                    btn.classList.add("success");
-
-                    setTimeout(() => {
-                        btn.innerText = "코드 복사";
-                        btn.classList.remove("success");
-                    }, 1200);
-                })
-                .catch(() => {
-                    btn.innerText = "실패!";
-                    btn.classList.add("error");
-
-                    setTimeout(() => {
-                        btn.innerText = "코드 복사";
-                        btn.classList.remove("error");
-                    }, 1200);
-                });
-        });
-
+            btn.addEventListener("click", () => {
+                const codeEl = box.querySelector("code");
+                navigator.clipboard.writeText(codeEl.textContent)
+                    .then(() => {
+                        btn.innerText = "복사됨!";
+                        btn.classList.add("success");
+                        setTimeout(() => {
+                            btn.innerText = "코드 복사";
+                            btn.classList.remove("success");
+                        }, 1200);
+                    })
+                    .catch(() => {
+                        btn.innerText = "실패!";
+                        btn.classList.add("error");
+                        setTimeout(() => {
+                            btn.innerText = "코드 복사";
+                            btn.classList.remove("error");
+                        }, 1200);
+                    });
+            });
+        }
     });
-});
 
+    Prism.highlightAll();
+}
 
+document.addEventListener("DOMContentLoaded", enhanceCodes);
+$(document).ajaxComplete(enhanceCodes);
